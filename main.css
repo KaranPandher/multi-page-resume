@@ -26,7 +26,7 @@ nav{ /* Auto centre the width, states how large the margin and width should be C
     font-family: sans-serif;
     width: auto;
     max-width: 600px;
-    background-color: salmon;
+    background-color: #eeeeee;
     margin: 16px auto; 
     font-weight: bold;
     text-align: center;
@@ -75,6 +75,7 @@ nav ul li a:hover, nav u li a:focus, nav u li a:active {
     line-height: 1.5;
     color: rgb(33, 33, 33); /* There are a few ways to do color... */
     background-color: #eeeeee; /* Background color of the paragraph */
+    padding: 5px;
 }
 
 p{
@@ -83,4 +84,22 @@ p{
     line-height: 1.5;
     color: rgb(33, 33, 33); /* There are a few ways to do color... */
     background-color: #eeeeee; /* Background color of the paragraph */
+}
+
+#Summary{
+    padding: 0px;
+    margin-top: -20px;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-left: auto;
+    /* Can also margin: -20, 0, 25, 0; */
+} 
+
+.logo{
+    float: left; 
+    margin: 0px 16px 16px 0px;
+}
+
+#cn{
+     padding: 10px;
 }
